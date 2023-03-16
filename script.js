@@ -1,5 +1,5 @@
 const curDate = new Date();
-const newYears = '1 jan ' + curDate.getFullYear();
+const newYears = '1 jan ' + (curDate.getFullYear() + 1);
 
 function countdown() {
    const newYearsDate = new Date(newYears);
